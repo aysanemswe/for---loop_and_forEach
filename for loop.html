@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript</title>
+    </head>
+    <body>
+        <script>
+          // For loop
+
+          let doslar = []
+
+          let neshew = Number(prompt("Neshe dostin bar?"))
+
+          for (let i = 1; i <= neshew; i = i + 1){
+            let dos = prompt(`${i}shi dostinnin atin kiritin`)
+
+            doslar.push(dos)
+          }
+          let upper_renler = ['RED', 'BLUE', 'GREEN', 'WHITE']
+
+          for (let index = 0; index < 4; index = index + 1){
+            console.log(upper_renler[index])
+          }
+          
+
+          console.log(doslar)
+          
+          let doslar = ['Dawlet', 'Amir', 'Ilham', 'Aydos']
+
+          for (let index = 0; index < doslar.length; index = index + 1){
+            console.log("Assalawma Aleykum,", doslar[index])
+          }
+          let upper_renler = ['RED', 'BLUE', 'GREEN', 'WHITE']
+
+          for (let index = 0; index < 4; index = index + 1){
+            console.log(upper_renler[index].toLowerCase())
+          }
+          
+          for (let i = 2; i <= 10; i = i + 2){
+            console.log(i)
+          }
+
+          for (let i = 21; i <= 50; i = i + 2){
+            console.log(i)
+          }
+
+          for (let i = 1; i <= 10; i = i + 1){
+            console.log(i * i)
+          }
+        </script>
+    </body>
+</html>
